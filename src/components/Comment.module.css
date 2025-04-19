@@ -4,12 +4,6 @@
   gap: 1rem;
 }
 
-.comment img {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 8px;
-}
-
 .commentBox {
   flex: 1;
 }
@@ -83,6 +77,6 @@
 }
 
 .commentBox footer button span::before {
- padding: 0 0.25rem;
-  content: '\2022';
+  padding: 0 0.25rem;
+  content: "\2022";
 }
