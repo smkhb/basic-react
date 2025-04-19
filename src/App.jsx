@@ -11,7 +11,8 @@ export default function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <Post author="John Doe" content="This is a sample post content." />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>

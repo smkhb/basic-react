@@ -2,14 +2,10 @@ import styles from "./Post.module.css";
 
 export function Post() {
   return (
-    <articles className={styles.post}>
+    <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className={styles.avatar}
-            src="https://github.com/smkhb.png"
-            alt="User Avatar"
-          />
+          <img className={styles.avatar} src="https://github.com/smkhb.png" />
           <div className={styles.authorInfo}>
             <strong>Samuel Bernardo</strong>
             <span>Dev Junior</span>
@@ -27,12 +23,14 @@ export function Post() {
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
         <p>
-          👉<a href="">jane.design/doctorcare</a>
+          👉 <a href="">jane.design/doctorcare</a>
         </p>
         <p>
-          <a href="">#novoprojeto #nlw #rocketseat</a>
+          <a href="">#novoprojeto</a>
+          <a href=""> #nlw</a>
+          <a href=""> #rocketseat</a>
         </p>
       </div>
-    </articles>
+    </article>
   );
 }
