@@ -30,7 +30,11 @@ export function Post({ author, content, publishedAt }) {
   }
 
   function deleteComment(comment) {
-    console.log(`Deletando comentário ${comment}`);
+    const commentsWithoutDeletedOne = comments.filter((c) => {
+      return c !== comment;
+    });
+
+    setComments(commentsWithoutDeletedOne);
   }
 
   return (
