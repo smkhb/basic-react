@@ -1,12 +1,39 @@
-# React + Vite
+# First React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é uma aplicação simples desenvolvida para relembrar conceitos básicos de React e TypeScript.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Exibição de posts com informações de autor, conteúdo e data de publicação.
+- Possibilidade de adicionar comentários aos posts.
+- Sistema de likes nos comentários.
+- Interface responsiva e estilizada com CSS Modules.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de build rápida para desenvolvimento web.
+- **CSS Modules**: Para estilização modular e escopada.
+
+## Estrutura do Projeto
+
+A aplicação é composta por componentes reutilizáveis como `Header`, `Sidebar`, `Post`, `Comment` e `Avatar`. Cada componente possui seu próprio arquivo de estilo, garantindo organização e modularidade.
+
+## Objetivo
+
+O objetivo principal deste projeto foi revisar e praticar conceitos fundamentais de React e TypeScript, como:
+
+- Componentização.
+- Gerenciamento de estado com hooks (`useState`).
+- Manipulação de eventos.
+- Tipagem de props e estados.
+- Estilização modular com CSS Modules.
+
+## Como Executar
+
+1. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
