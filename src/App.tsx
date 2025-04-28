@@ -1,10 +1,10 @@
-import { Post } from "./components/Post.jsx";
+import { Post, PostTye } from "./components/Post.jsx";
 import { Header } from "./components/Header.jsx";
 import { Sidebar } from "./components/Sidebar.jsx";
 import styles from "./App.module.css";
 import "./global.css";
 
-const posts = [
+const posts: PostTye[] = [
   {
     id: 1,
     author: {
@@ -51,14 +51,7 @@ export default function App() {
         <Sidebar />
         <main>
           {posts.map((post) => {
-            return (
-              <Post
-                key={post.id}
-                author={post.author}
-                content={post.content}
-                publishedAt={post.publishedAt}
-              />
-            );
+            return <Post key={post.id} post={post} />;
           })}
         </main>
       </div>
